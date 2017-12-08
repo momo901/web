@@ -1,0 +1,40 @@
+<nz-header class="bk-header">
+  <div nz-row>
+    <div class="bk-logo" nz-col [nzXs]="23" [nzSm]="23" [nzMd]="8" [nzLg]="5" [nzXl]="5">Wadaif</div>
+    <div nz-col [nzXs]="1" [nzSm]="1" [nzMd]="16" [nzLg]="19" [nzXl]="19">
+      <nz-popover class="bk-popover-menu" [nzPlacement]="'rightBottom'" [nzTrigger]="'click'">
+        <i nz-popover class="anticon anticon-menu-fold"></i>
+        <ng-template #nzTemplate>
+          <ul nz-menu>
+            <li nz-menu-item>Public sector</li>
+            <li nz-menu-item>Private sector</li>
+            <li nz-menu-item>Utils</li>
+            <li nz-submenu>
+              <span title>
+                <span class="nav-text">My account</span>
+              </span>
+              <ul>
+                <li nz-menu-item>Sign in</li>
+                <li nz-menu-item>Sign up</li>
+              </ul>
+            </li>
+          </ul>
+        </ng-template>
+      </nz-popover>
+      <ul class="bk-header-menu" nz-menu [nzTheme]="'light'" [nzMode]="'horizontal'">
+        <li nz-menu-item>Public sector</li>
+        <li nz-menu-item>Private sector</li>
+        <li nz-menu-item>Utils</li>
+        <li nz-submenu>
+          <span title>
+            <span class="nav-text">My account</span>
+          </span>
+          <ul>
+            <li nz-menu-item>Sign in</li>
+            <li nz-menu-item>Sign up</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nz-header>

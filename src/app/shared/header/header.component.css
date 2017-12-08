@@ -1,0 +1,33 @@
+:host ::ng-deep .logo {
+  width: 120px;
+  height: 31px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+.bk-logo{
+  font-weight: 700;
+  font-size: 120%;
+}
+.bk-header{
+  background-color: #fff;
+}
+.bk-popover-menu{
+  float: right;
+  cursor: pointer;
+}
+
+.bk-header-menu{
+  float: right;
+  line-height: 64px;
+}
+
+
+@media (max-width: 768px) {
+  .ant-col-xs-1,
+  .ant-col-sm-1 {
+    display: none;
+    width: 0%;
+  }
+}
